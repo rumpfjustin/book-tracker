@@ -1,6 +1,6 @@
 public class BookTrackerApplication : Adw.Application {
     public BookTrackerApplication () {
-        Object (application_id: "com.github.rumpfjustin.BookTracker", flags: ApplicationFlags.DEFAULT_FLAGS);
+        Object (application_id: "com.github.rumpfjustin.book-tracker", flags: ApplicationFlags.DEFAULT_FLAGS);
     }
 
     protected override void activate () {
